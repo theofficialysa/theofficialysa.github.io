@@ -68,7 +68,7 @@ header {
 .nav-links li{
     display: inline-block;
     list-style: none;
-    margin: 13px;
+    margin: 8px;
     transition: all 0.3s;
 }
 
@@ -97,7 +97,7 @@ header {
     margin-bottom: 70vh;
     padding-left: 10px;
     padding-right: 10px;
-    height: 220px;
+    height: 240px;
     width: 100%;
     transform: translateY(280px);
     opacity: 0.8;
@@ -212,7 +212,7 @@ header {
     .nav-links li{
         display: inline-block;
         list-style: none;
-        margin: 0px;
+        margin: -5px;
         transition: all 0.15s;
         transform: translateX(15px);
     }
