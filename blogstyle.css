@@ -65,7 +65,7 @@ header {
 .nav-links li{
     display: inline-block;
     list-style: none;
-    margin: 13px;
+    margin: 8px;
     transition: all 0.3s;
 }
 
@@ -101,7 +101,7 @@ header {
 }
 
 .post{
-    max-width: 420px;
+    max-width: 400px;
 }
 
 .posttitle{
@@ -114,8 +114,8 @@ header {
 img{
     border-radius: 10px;
     border: 2px solid #eef4f3;
-    width: 420px;
-    height: 420px;
+    width: 400px;
+    height: 400px;
 }
 
 .post h1{
@@ -145,7 +145,7 @@ img{
     .nav-links li{
         display: inline-block;
         list-style: none;
-        margin: 0px;
+        margin: -5px;
         transition: all 0.15s;
         transform: translateX(15px);
     }
