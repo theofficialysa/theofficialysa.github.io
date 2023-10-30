@@ -283,4 +283,8 @@ span {
         text-shadow: 3px 3px #111;
         color:#eef4f3;
     }
+
+    .creditcontainer{
+        display: none;
+    }
 }
