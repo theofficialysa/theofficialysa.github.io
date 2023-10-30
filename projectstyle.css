@@ -116,7 +116,7 @@ header {
     grid-template-columns: repeat(2,180px);
     grid-template-rows: repeat(3, 180px); 
     justify-content: right;
-    transform: translate(-85px,-215px);
+    transform: translate(-10%,-215px);
     transition: all 0.5s;
 }
 
