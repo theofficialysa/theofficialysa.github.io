@@ -95,7 +95,7 @@ header {
     display: grid;
     transform: translateX(14vh) translateY(34vh); 
     transition: all 0.5s;   
-    width:600px;
+    width:550px;
 }
 
 .projecttitle h1{
@@ -268,11 +268,13 @@ header {
     .projecttitle{
         transform: translateX(-21%) translateY(5vh); 
         scale: 0.45;   
+        display: none;
         transition: all 0.5s;
     }
 
     .projecttitle p{
         font-size: 14px;
+        display: none;
         transition: all 0.5s;
     }
 
@@ -281,8 +283,8 @@ header {
         grid-gap: 10px;
         grid-template-columns: repeat(2, 150px);
         grid-template-rows: repeat(3, 150px); 
-        justify-content: right;
-        transform: translate(-17%,-100px);
+        transform: translateY(150px);
+        justify-content: center;
         transition: all 0.5s;
     }
 
@@ -299,7 +301,7 @@ header {
         font-weight: bold;
         letter-spacing: 3px;
         text-shadow: 1px 1px #111;
-        font-size: 8px;
+        font-size: 10px;
         transform: translateX(-2px);
         transition: all 0.5s;
 
@@ -314,5 +316,8 @@ header {
         display: none;
         transition: all 0.5s;
 
+    }
+    .creditcontainer{
+        display: none;
     }
 }
