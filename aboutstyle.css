@@ -248,4 +248,7 @@ header {
     #box h2{
         display: none;
     }
+    .creditcontainer{
+        display: none;
+    }
 }
