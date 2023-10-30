@@ -59,7 +59,7 @@ header {
 .nav-links li{
     display: inline-block;
     list-style: none;
-    margin: 13px;
+    margin: 8px;
     transition: all 0.3s;
 }
 
@@ -213,7 +213,7 @@ form button{
     border:2px;
     outline:none;
     height:60px;
-    width: 100px;
+    width: 80px;
     cursor:pointer;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -238,7 +238,7 @@ span {
     .nav-links li{
         display: inline-block;
         list-style: none;
-        margin: 0px;
+        margin: -5px;
         transition: all 0.15s;
         transform: translateX(15px);
     }
@@ -279,7 +279,7 @@ span {
         text-align: center;
         font-size: 30px;
         letter-spacing: 8px;
-        text-transform:uppercase;
+        text-transform: uppercase;
         text-shadow: 3px 3px #111;
         color:#eef4f3;
     }
