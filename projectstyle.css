@@ -309,14 +309,14 @@ header {
     }
 
     .parent h2 {
-        width:80px;
-        font-size: 5.1px;
+        width:120px;
+        font-size: 7px;
         text-align: center;
         transform: translateY(-2px);
         display: none;
         transition: all 0.5s;
-
     }
+    
     .creditcontainer{
         display: none;
     }
