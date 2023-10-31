@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Monospace', sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+
+body, html{
+    height: 100%;
+    margin:0;
+    background-color: #111;
+    background-image: url(/images/environment.jpg);
+    background-size: cover; 
+    background-attachment:fixed;
+    scroll-behavior: smooth;
+    color: #eef4f3;
+    overflow-x: hidden;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+    display: flex;
+    top:0;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #111;
+}
+
+.title {
+    color: #eef4f3;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 40%;
+    transition: all 0.3s;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links li{
+    display: inline-block;
+    list-style: none;
+    margin: 8px;
+    transition: all 0.3s;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #eef4f3;
+    font-family: 'Nunito Sans', sans-serif;
+    position:relative;
+    font-size: 15px;
+    border-radius:  10px;
+    margin: 0 10px;
+    padding: 4px 10px;
+    transition: all 0.3s;
+}
+
+.nav-links li a:hover{
+    background: #eef4f3;
+    color: #111;
+    transition: all 0.3s;
+}
+
+.introbox{
+    text-align: center;
+    color: #eef4f3;
+    background-color: #111;
+    margin-bottom: 70vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 240px;
+    width: 100%;
+    transform: translateY(280px);
+    opacity: 0.8;
+}
+
+.introtitle{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    padding-top: 40px;
+    transition: all 0.15s;
+    width: 100%;
+}
+
+.introtext{
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.15s;
+    width: 100%;
+
+}
+
+#box {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 50vh;
+}
+
+.spacer{
+    height: 30vh;
+    width: 100%;
+}
+
+.endabout{
+    height: 10vh;
+    width: 100%;
+}
+
+.hidden1{
+    opacity: 0;
+    transform: translateX(-100%);
+    filter: blur(5px);
+    transition: all 1.5s;
+}
+
+#box p{
+    width: 50%;
+    opacity: 0.8;
+    padding:20px;
+    border-radius: 40px;
+    text-align: center;
+    transform: translateY(-15px);    
+    background-color: #111;
+}
+
+#box h1{
+    opacity: 0.8;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 20px;
+    transform: translateY(15px);
+    background-color: #111;
+}
+
+#box h2{
+    opacity: 0.8;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 20px;
+    font-size:large;
+    background-color: #111;
+}
+
+.hidden2{
+    opacity: 0;
+    transform: translateX(100%);
+    filter: blur(5px);
+    transition: all 1.5s;
+}
+
+.show1{
+    opacity: 1;
+    transform: translateX(-0%);
+    filter: blur(0px);
+}
+
+.show2{
+    opacity: 1;
+    transform: translateX(0%);
+    filter: blur(0px);
+}
+
+
+
+@media(max-width: 1100px){
+    .title {
+        color: #eef4f3;
+        font-family: 'Nunito Sans', sans-serif;
+        padding-left: 10%;
+        transition: all 0.15s;
+        font-size: 20px;
+        font-weight: bold;
+        transform: translateY(1px);
+    }
+    .nav-links li{
+        display: inline-block;
+        list-style: none;
+        margin: -5px;
+        transition: all 0.15s;
+        transform: translateX(15px);
+    }
+    .nav-links li a{
+        text-decoration: none;
+        color: #eef4f3;
+        font-family: 'Nunito Sans', sans-serif;
+        position:relative;
+        font-size: 10px;
+        border-radius:  10px;
+        margin: 0 2px;
+        padding: 4px 10px;
+        transition: all 0.15s;
+    }
+    .introtitle{
+        font-size: 19px;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 2px;
+        padding-top: 30px;
+        transition: all 0.15s;
+    }
+    .introtext{
+        font-size: 14px;
+        text-align: center;
+        letter-spacing: 2px;
+        transition: all 0.15s;
+    }
+    #box p{
+        font-size: 11px;
+        transform: translateY(-3px);
+    }
+    #box h2{
+        display: none;
+    }
+}
