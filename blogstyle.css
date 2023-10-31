@@ -116,6 +116,7 @@ img{
     border: 2px solid #eef4f3;
     width: 400px;
     height: 400px;
+    object-fit: cover;
 }
 
 .post h1{
